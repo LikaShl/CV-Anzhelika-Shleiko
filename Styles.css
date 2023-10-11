@@ -7,7 +7,7 @@ body {
   font-family: "JetBrains Mono", monospace;
   font-family: "Roboto Condensed", sans-serif;
   width: 60%;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 header {
   width: 100%;
@@ -15,7 +15,7 @@ header {
   background: linear-gradient(to top, white 60%, var(--main-color) 40%);
 }
 .button {
-  padding: 20px 30px;
+  padding: 10px 60px;
   border: solid 1px #3176df;
   border-radius: 10px;
   box-shadow: 10px 5px 5px #938989;
@@ -53,7 +53,7 @@ p {
 }
 .contact-link {
   padding: 40px 0 0 40px;
-  margin: 40px 50px;
+  margin: 40px 100px;
 }
 .business-card {
   display: block;
