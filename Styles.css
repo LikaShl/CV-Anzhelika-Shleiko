@@ -14,6 +14,23 @@ header {
   height: 100%;
   background: linear-gradient(to top, white 60%, var(--main-color) 40%);
 }
+.button {
+  padding: 20px 30px;
+  border: solid 1px #3176df;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #938989;
+  background-color: var(--background-color);
+  color: var(--main-color);
+  transition: all 200ms ease;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
 hr {
   border: solid 1px var(--main-color);
 }
@@ -36,7 +53,7 @@ p {
 }
 .contact-link {
   padding: 40px 0 0 40px;
-  font-size: larger;
+  margin: 40px 50px;
 }
 .business-card {
   display: block;
