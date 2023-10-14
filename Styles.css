@@ -16,7 +16,10 @@ header {
   padding: 20px;
 }
 .button {
-  padding: 10px 60px;
+  display: block;
+  margin: 40px auto;
+  padding: 10px 20px 10px 20px;
+  width: 250px;
   border: solid 1px #3176df;
   border-radius: 10px;
   box-shadow: 10px 5px 5px #938989;
@@ -24,6 +27,7 @@ header {
   color: var(--main-color);
   transition: all 200ms ease;
   font-size: 24px;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -51,10 +55,6 @@ p {
 }
 .name-occupation {
   padding-left: 40px;
-}
-.contact-link {
-  padding: 40px 0 0 40px;
-  margin: 40px 100px;
 }
 .business-card {
   display: block;
