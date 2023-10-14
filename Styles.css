@@ -17,7 +17,7 @@ header {
 }
 .button {
   display: block;
-  margin: 40px auto;
+  margin: 60px auto 20px auto;
   padding: 10px 20px 10px 20px;
   width: 250px;
   border: solid 1px #3176df;
@@ -58,7 +58,7 @@ p {
 }
 .business-card {
   display: block;
-  margin: 60px auto;
+  margin: 80px auto;
   width: 400px;
   border: solid 1px var(--main-color);
   border-radius: 10px;
