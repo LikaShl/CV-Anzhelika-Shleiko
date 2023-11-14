@@ -87,4 +87,8 @@ p {
   h2 {
     text-align: center;
   }
+  .col-sm-4 {
+    display: flex;
+    justify-content: center;
+  }
 }
